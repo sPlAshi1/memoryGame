@@ -14,7 +14,8 @@ import java.util.ArrayList;
 public class MainActivity extends AppCompatActivity {
 
     ImageView[] img;
-    ArrayList<Integer> array;
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -27,4 +28,5 @@ public class MainActivity extends AppCompatActivity {
         img[4] = findViewById(R.id.imageView9);
         img[5] = findViewById(R.id.imageView10);
     }
+
 }
